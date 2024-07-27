@@ -14,37 +14,25 @@ clone it:
 
 `cd Joefetch`
 
-
-To run it:
+To run it without installing:
 
 `python3 joefetch.py`
 
-To create an executable:
-
-Install pyinstaller:
-(Make sure you have python3-pip or equivalent for distro)
-
-`pip install pyinstaller` (If an error occurs add `--break-system-packages` to the syntax)
-
-Create the executable:
-
-`pyinstaller --onefile joefetch.py`
-
-This will create the folders `build` and `dist`. In which the `dist` directory contains the executable
-
-
-
-
 To install:
 
-In the working directory run:
+Install pyinstaller (Required) (Make sure you have python3-pip or distro eqivalent installed)
 
-`sudo/doas mv dist/joefetch /usr/bin/joefetch`
+`pip install pyinstaller` (if an error occurs add --break-system-packages to the syntax)
+
+To make and install:
+
+`make`
+
+`sudo make install`
 
 To test if it works run this in the bash prompt:
 
 `joefetch`
-
 
 It is currently not perfect
 
