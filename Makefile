@@ -1,7 +1,7 @@
 # Variables
 SCRIPT = joefetch.py
 EXECUTABLE = joefetch
-BUILD_DIR = build
+BUILD_DIR = dist
 INSTALL_DIR = /usr/bin
 
 # Default target
