@@ -13,7 +13,7 @@ build:
 
 # Install the executable to /usr/bin
 install: build
-	sudo cp $(BUILD_DIR)/$(EXECUTABLE) $(INSTALL_DIR)/$(EXECUTABLE)
+	sudo cp -r $(BUILD_DIR)/$(EXECUTABLE) $(INSTALL_DIR)/$(EXECUTABLE)
 
 # Clean up build artifacts
 clean:
