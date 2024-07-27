@@ -17,8 +17,9 @@ To run it:
 To create an executable:
 
 Install pyinstaller:
+(Make sure you have python3-pip or equivalent for distro)
 
-`pip install pyinstaller`
+`pip install pyinstaller` (If an error occurs add `--break-system-packages` to the syntax)
 
 Create the executable:
 
