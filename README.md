@@ -7,12 +7,17 @@ I have written this in Python it took me a couple of programming languages befor
 
 For now this script only works on Unix-Like systems (I do not know if I will port it to other platforms.) (I have yet to test it on BSD and macOS)
 
+clone it:
+(Make sure you have `git` installed)
+
+`git clone https://github.com/kitfistofan7600/Joefetch`
+
+`cd Joefetch`
+
+
 To run it:
 
 `python3 joefetch.py`
-
-
-
 
 To create an executable:
 
