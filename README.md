@@ -33,7 +33,7 @@ To install:
 
 In the working directory run:
 
-sudo/doas mv dist/joefetch /usr/bin/joefetch
+`sudo/doas mv dist/joefetch /usr/bin/joefetch`
 
 To test if it works run this in the bash prompt:
 
