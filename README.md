@@ -25,6 +25,7 @@ Install pyinstaller (Required) (Make sure you have python3-pip or distro eqivale
 `pip install pyinstaller` (if an error occurs add --break-system-packages to the syntax)
 
 To make and install:
+(Make sure you have `make` installed)
 
 `make`
 
